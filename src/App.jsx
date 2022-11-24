@@ -17,7 +17,6 @@ function App() {
 
   return (
     <div className="App">
-      <div>
         <Sidebar />
         <main className='main'>
           <Home/>
@@ -30,7 +29,6 @@ function App() {
           <Blog />
           <Contact />
         </main>
-      </div>
     </div>
   )
 }
